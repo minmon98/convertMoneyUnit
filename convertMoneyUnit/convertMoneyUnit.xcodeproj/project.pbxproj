@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		258A728F2222B1E700ECB5D9 /* next.png in Resources */ = {isa = PBXBuildFile; fileRef = 258A728E2222B1E700ECB5D9 /* next.png */; };
+		258A72962222BEE800ECB5D9 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 258A72922222BEE800ECB5D9 /* 2.png */; };
+		258A72972222BEE800ECB5D9 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 258A72932222BEE800ECB5D9 /* 1.png */; };
+		258A72982222BEE800ECB5D9 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 258A72942222BEE800ECB5D9 /* 4.png */; };
+		258A729B2222C06900ECB5D9 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 258A729A2222C06900ECB5D9 /* 3.png */; };
 		25AFA8952222A24F00D4AA97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25AFA8942222A24F00D4AA97 /* AppDelegate.swift */; };
 		25AFA8972222A24F00D4AA97 /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25AFA8962222A24F00D4AA97 /* MainController.swift */; };
 		25AFA89A2222A24F00D4AA97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25AFA8982222A24F00D4AA97 /* Main.storyboard */; };
@@ -16,6 +21,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		258A728E2222B1E700ECB5D9 /* next.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = next.png; sourceTree = "<group>"; };
+		258A72922222BEE800ECB5D9 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		258A72932222BEE800ECB5D9 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		258A72942222BEE800ECB5D9 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		258A729A2222C06900ECB5D9 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
 		25AFA8912222A24F00D4AA97 /* convertMoneyUnit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = convertMoneyUnit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		25AFA8942222A24F00D4AA97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		25AFA8962222A24F00D4AA97 /* MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
@@ -40,6 +50,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		258A728D2222B18A00ECB5D9 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				258A729A2222C06900ECB5D9 /* 3.png */,
+				258A72932222BEE800ECB5D9 /* 1.png */,
+				258A72922222BEE800ECB5D9 /* 2.png */,
+				258A72942222BEE800ECB5D9 /* 4.png */,
+				258A728E2222B1E700ECB5D9 /* next.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
 		25AFA8882222A24F00D4AA97 = {
 			isa = PBXGroup;
 			children = (
@@ -61,6 +83,7 @@
 		25AFA8932222A24F00D4AA97 /* convertMoneyUnit */ = {
 			isa = PBXGroup;
 			children = (
+				258A728D2222B18A00ECB5D9 /* images */,
 				25AFA8A82222A29D00D4AA97 /* Controller */,
 				25AFA8A72222A29400D4AA97 /* View */,
 				25AFA8A62222A28000D4AA97 /* Model */,
@@ -109,7 +132,6 @@
 				FFD86A11DDA4E0409C7646C5 /* Pods-convertMoneyUnit.debug.xcconfig */,
 				3970380DA6832AB28683EAF8 /* Pods-convertMoneyUnit.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -175,7 +197,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				25AFA89F2222A24F00D4AA97 /* LaunchScreen.storyboard in Resources */,
+				258A72982222BEE800ECB5D9 /* 4.png in Resources */,
 				25AFA89C2222A24F00D4AA97 /* Assets.xcassets in Resources */,
+				258A729B2222C06900ECB5D9 /* 3.png in Resources */,
+				258A72962222BEE800ECB5D9 /* 2.png in Resources */,
+				258A72972222BEE800ECB5D9 /* 1.png in Resources */,
+				258A728F2222B1E700ECB5D9 /* next.png in Resources */,
 				25AFA89A2222A24F00D4AA97 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -188,16 +215,12 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-convertMoneyUnit/Pods-convertMoneyUnit-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
@@ -212,15 +235,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-convertMoneyUnit-checkManifestLockResult.txt",
 			);
