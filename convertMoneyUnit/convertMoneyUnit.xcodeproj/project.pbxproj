@@ -12,6 +12,7 @@
 		25AFA89A2222A24F00D4AA97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25AFA8982222A24F00D4AA97 /* Main.storyboard */; };
 		25AFA89C2222A24F00D4AA97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25AFA89B2222A24F00D4AA97 /* Assets.xcassets */; };
 		25AFA89F2222A24F00D4AA97 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25AFA89D2222A24F00D4AA97 /* LaunchScreen.storyboard */; };
+		FCA2A26865918499B50CC35C /* Pods_convertMoneyUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD902E513201E863EDBD74BC /* Pods_convertMoneyUnit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,9 @@
 		25AFA89B2222A24F00D4AA97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		25AFA89E2222A24F00D4AA97 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		25AFA8A02222A24F00D4AA97 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3970380DA6832AB28683EAF8 /* Pods-convertMoneyUnit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-convertMoneyUnit.release.xcconfig"; path = "Target Support Files/Pods-convertMoneyUnit/Pods-convertMoneyUnit.release.xcconfig"; sourceTree = "<group>"; };
+		BD902E513201E863EDBD74BC /* Pods_convertMoneyUnit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_convertMoneyUnit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFD86A11DDA4E0409C7646C5 /* Pods-convertMoneyUnit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-convertMoneyUnit.debug.xcconfig"; path = "Target Support Files/Pods-convertMoneyUnit/Pods-convertMoneyUnit.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCA2A26865918499B50CC35C /* Pods_convertMoneyUnit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +45,8 @@
 			children = (
 				25AFA8932222A24F00D4AA97 /* convertMoneyUnit */,
 				25AFA8922222A24F00D4AA97 /* Products */,
+				DC78B87B3D71BE206BB856D6 /* Pods */,
+				AC95EC068B942D27D6912469 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -88,6 +95,24 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
+		AC95EC068B942D27D6912469 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BD902E513201E863EDBD74BC /* Pods_convertMoneyUnit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC78B87B3D71BE206BB856D6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FFD86A11DDA4E0409C7646C5 /* Pods-convertMoneyUnit.debug.xcconfig */,
+				3970380DA6832AB28683EAF8 /* Pods-convertMoneyUnit.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -95,9 +120,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 25AFA8A32222A24F00D4AA97 /* Build configuration list for PBXNativeTarget "convertMoneyUnit" */;
 			buildPhases = (
+				790675C7E584F92B046832BA /* [CP] Check Pods Manifest.lock */,
 				25AFA88D2222A24F00D4AA97 /* Sources */,
 				25AFA88E2222A24F00D4AA97 /* Frameworks */,
 				25AFA88F2222A24F00D4AA97 /* Resources */,
+				343348F8B21D6826196A2FA2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -154,6 +181,55 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		343348F8B21D6826196A2FA2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-convertMoneyUnit/Pods-convertMoneyUnit-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-convertMoneyUnit/Pods-convertMoneyUnit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		790675C7E584F92B046832BA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-convertMoneyUnit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		25AFA88D2222A24F00D4AA97 /* Sources */ = {
@@ -296,6 +372,7 @@
 		};
 		25AFA8A42222A24F00D4AA97 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFD86A11DDA4E0409C7646C5 /* Pods-convertMoneyUnit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -311,6 +388,7 @@
 		};
 		25AFA8A52222A24F00D4AA97 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3970380DA6832AB28683EAF8 /* Pods-convertMoneyUnit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
