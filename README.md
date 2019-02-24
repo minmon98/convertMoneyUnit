@@ -1,10 +1,10 @@
 
+* Author: Minh Mon
+* Copyright: 2019
 
 # convertMoneyUnit
 ![icon](https://github.com/minmon98/convertMoneyUnit/blob/master/icon.png)
 
-* Author: Minh Mon
-* Copyright: 2019
 
 ### Introduction
 
