@@ -2,7 +2,7 @@
 * Copyright: 2019
 
 # convertMoneyUnit
-
+![icon](https://github.com/minmon98/convertMoneyUnit/blob/master/icon.png)
 
 ### Introduction
 
