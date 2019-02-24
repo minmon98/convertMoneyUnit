@@ -1,5 +1,5 @@
 # convertMoneyUnit
-[icon](https://github.com/minmon98/convertMoneyUnit/blob/master/icon.png)
+![icon](https://github.com/minmon98/convertMoneyUnit/blob/master/icon.png)
 
 ### Introduction
 
