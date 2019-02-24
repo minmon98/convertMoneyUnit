@@ -1,3 +1,6 @@
+* Author: Minh Mon
+* Copyright: 2019
+
 # convertMoneyUnit
 ![icon](https://github.com/minmon98/convertMoneyUnit/blob/master/icon.png)
 
@@ -18,7 +21,6 @@ convertMoneyUnit is an application to convert currency money. It include 4 simpl
 ![Fixer.io](https://github.com/minmon98/convertMoneyUnit/blob/master/Screen%20Shot%202019-02-24%20at%208.56.24%20PM.png)
 
 
-Author: Minh Mon
-Copyright: 2019
+
 
 
