@@ -6,7 +6,7 @@
 
 ### Introduction
 
-convertMoneyUnit is an application to convert currency money. It include 4 simple currency: USD, JPY, VND, EUR
+convertMoneyUnit is an application to convert currency money. It include 4 simple currency money: USD, JPY, VND, EUR
 
 ### Main View
 
